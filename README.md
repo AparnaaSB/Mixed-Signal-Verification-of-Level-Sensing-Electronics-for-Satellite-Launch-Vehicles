@@ -6,7 +6,7 @@ This project presents a robust mixed-signal design and verification framework fo
 
 The framework integrates SPICE-simulated analog waveforms directly with FPGA RTL  logic using cocotb, enabling end-to-end mixed-signal verification of a flight-critical avionics subsystem.
 
-**Note:** The RTL design is proprietary to ISRO–VSSC and hence, not included. This repository includes the testbench along with documentation of the methodology, architecture and results.
+**Note:** The RTL design is proprietary to ISRO and hence, not included. This repository includes the testbench along with documentation of the methodology, architecture and results.
 
 ## System Architecture
 
