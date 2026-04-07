@@ -1,4 +1,4 @@
-# Mixed-Signal-Verification-of-Level-Sensing-Electronics-for-Satellite-Launch-Vehicles
+# Mixed-Signal Verification of Level Sensing Electronics for Satellite Launch Vehicles
 
 ## Overview
 
