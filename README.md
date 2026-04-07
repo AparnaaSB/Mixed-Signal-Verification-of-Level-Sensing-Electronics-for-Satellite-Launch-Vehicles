@@ -11,12 +11,7 @@ The framework integrates SPICE-simulated analog waveforms directly with FPGA RTL
 ## System Architecture
 
 The Level Sensing Electronics (LSE) subsystem measures real-time propellant levels in semi-cryogenic and cryogenic engines using capacitive sensors. The complete signal chain:
-Capacitive Sensor → Signal Conditioning → Filter → ADC → FPGA
-                                                         ├── ADC Interface
-                                                         ├── RMS Computation
-                                                         ├── Digital Filter
-                                                         ├── Median Filter
-                                                         └── AHB Interface → Processor
+ANALOG FRONT END (Capacitive Sensor → Signal Conditioning → Filter) → ANALOG-DIGITAL CONVERSION (ADC) → DIGITAL SIGNAL PROCESSING IN FPGA (ADC Interface → RMS Computation → Digital Filter → Median Filter → AHB Interface) → DATA COMMUNICATION (Processor → Ethernet)
 ## Framework Architecture
 
 Four-component Python testbench interfacing with QuestaSim via FLI:
