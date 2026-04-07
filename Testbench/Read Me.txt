@@ -1,0 +1,6 @@
+For Running:
+Inside the Working folder, Testbench Folder has to be placed.
+RTL folder is placed outside the Testbench Folder, inside the Working Folder
+Makefile is also present outside the Testbench Folder, inside the Working Folder
+All Outputs will be available in this Working Folder.
+The test case which is to be tested has to be placed inside the Testbench Folder and has to be named "test_scse_main".py
